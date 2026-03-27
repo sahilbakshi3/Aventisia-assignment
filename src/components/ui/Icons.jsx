@@ -22,7 +22,6 @@ import {
   CirclePlus,
 } from "lucide-react";
 
-// Re-export with semantic names
 export const SearchIcon = (props) => <Search size={14} {...props} />;
 export const BellIcon = (props) => <Bell size={15} {...props} />;
 export const PlusIcon = (props) => <Plus size={14} {...props} />;
@@ -36,7 +35,7 @@ export const PagePrevIcon = (props) => <ChevronLeft size={12} {...props} />;
 export const PageNextIcon = (props) => <ChevronRight size={12} {...props} />;
 export const PageLastIcon = (props) => <ChevronsRight size={12} {...props} />;
 
-// Nav icons
+
 export const AgentsIcon = (props) => <Bot size={14} {...props} />;
 export const AIModelsIcon = (props) => <Brain size={14} {...props} />;
 export const LibraryIcon = (props) => <Library size={14} {...props} />;
@@ -54,7 +53,6 @@ export const KeyStoreIcon = (props) => <Library size={14} {...props} />;
 export const TenantIcon = (props) => <IdCard size={14} {...props} />;
 export const IntegrationsIcon = (props) => <CirclePlus size={14} {...props} />;
 
-// Custom: Logo (no lucide equivalent)
 export const LogoIcon = () => (
   <svg viewBox="0 0 64 64" className="w-10 h-10">
     <circle
@@ -76,7 +74,7 @@ export const LogoIcon = () => (
   </svg>
 );
 
-// Custom: Empty doc illustration
+
 export const EmptyDocIcon = () => (
   <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
     <path

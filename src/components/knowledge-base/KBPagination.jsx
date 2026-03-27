@@ -16,7 +16,6 @@ export default function KBPagination({
     "w-7 h-7 flex items-center justify-center border border-gray-600 rounded-md text-gray-500 bg-white hover:bg-gray-50 hover:text-gray-800 transition-all disabled:opacity-40 disabled:cursor-not-allowed";
 
   return (
-    // No bg, no border — just sits on the gray page background
     <div className="flex items-center justify-between px-2 py-2 text-[13px] text-gray-900">
       <span className="font-bold ">{totalRows} rows</span>
 

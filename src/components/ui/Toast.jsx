@@ -1,5 +1,3 @@
-// Auto-dismissing toast notification
-
 export default function Toast({ message }) {
   if (!message) return null
 

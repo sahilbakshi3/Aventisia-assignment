@@ -3,7 +3,6 @@ import KBEmptyState from "./KBEmptyState";
 
 export default function KBGrid({ cards }) {
   return (
-    // White container with border enclosing all cards
     <div className="bg-white border border-gray-200 rounded-xl p-4 mb-2">
       {cards.length === 0 ? (
         <KBEmptyState />

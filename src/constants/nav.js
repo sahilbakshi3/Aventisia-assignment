@@ -1,6 +1,3 @@
-// All sidebar navigation items organised by section.
-// `id` is used to match the active route; icons are injected in Sidebar.jsx
-
 export const NAV_SECTIONS = [
   {
     label: 'My Projects',

@@ -1,12 +1,9 @@
-// Generic form field wrapper used inside modals / forms.
-// Supports input, textarea, and select via the `as` prop.
-
 export default function FormField({
   label,
   required = false,
   hint,
   as: Tag = "input",
-  options = [], // used when Tag === 'select'
+  options = [],
   className = "",
   ...props
 }) {
@@ -38,7 +35,7 @@ export default function FormField({
               </option>
             ))}
           </select>
-          {/* custom chevron */}
+          
           <svg
             className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400"
             width="12"

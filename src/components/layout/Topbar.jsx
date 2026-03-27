@@ -22,7 +22,7 @@ export default function Topbar() {
         Worcspace
       </div>
 
-      {/* Workspace pill — rounded-full, filled background, no border */}
+      {/* Workspace pill */}
       <button className="flex items-center gap-1.5 bg-white/[0.15] rounded-full px-3.5 py-1.5 text-white text-[13px] font-medium hover:bg-white/[0.22] transition-colors">
         Worcspace 1
         <ChevronDownIcon className="text-white/70" />
@@ -43,14 +43,14 @@ export default function Topbar() {
         </span>
       </div>
 
-      {/* Right actions — no borders, no bg boxes */}
+      {/* Right actions*/}
       <div className="flex items-center gap-2 ml-auto">
         <button className="relative w-[34px] h-[34px] flex items-center justify-center text-white/65 hover:text-white transition-colors rounded-lg hover:bg-white/10">
           <BellIcon size={17} />
           {/* <span className="absolute top-[7px] right-[7px] w-1.5 h-1.5 bg-red-500 rounded-full" /> */}
         </button>
 
-        {/* Avatar — circular, primary bg */}
+        {/* Avatar */}
         <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white text-[11px] font-bold cursor-pointer select-none">
           GK
         </div>

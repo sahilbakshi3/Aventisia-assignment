@@ -93,7 +93,6 @@ export default function CreateKBModal({ onClose, onSubmit }) {
           />
         </div>
 
-        {/* Sticky footer */}
         <div className="px-6 py-4 border-t border-gray-100 flex justify-end gap-2.5">
           <Button variant="secondary" onClick={onClose}>
             Cancel

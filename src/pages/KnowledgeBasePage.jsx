@@ -21,7 +21,6 @@ export default function KnowledgeBasePage() {
   } = useKnowledgeBase();
 
   return (
-    // Full height flex-col — grid scrolls, pagination stays pinned at bottom
     <div className="flex flex-col h-full">
       {/* Scrollable area: header + cards */}
       <div className="flex-1 overflow-y-auto px-6 pt-6 pb-2 bg-white">
@@ -52,7 +51,7 @@ export default function KnowledgeBasePage() {
         <KBGrid cards={cards} />
       </div>
 
-      {/* Pagination — always pinned to bottom, never scrolls away */}
+      {/* Pagination */}
       <div className="flex-shrink-0 px-6 py-3 border-t border-gray-200 bg-white">
         <KBPagination
           totalRows={cards.length}
